@@ -1,0 +1,25 @@
+{
+  "name": "cv_frontenddev_nguyenthanhtung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://tungnguyen741.github.io/CV_NguyenThanhTung",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungnguyen741/CV_NguyenThanhTung.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tungnguyen741/CV_NguyenThanhTung/issues"
+  },
+  "homepage": "https://github.com/tungnguyen741/CV_NguyenThanhTung#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
