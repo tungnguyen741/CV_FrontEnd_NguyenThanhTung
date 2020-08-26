@@ -457,8 +457,26 @@ mark,
 .list-inline-item{
   transition: 0.2s all;
 }
-.list-inline-item:hover{
-      filter: brightness(0.2);
+.list-inline-item .fa-html5{
+  filter: invert(31%) sepia(39%) saturate(4158%) hue-rotate(353deg) brightness(107%) contrast(83%)
+}
+.list-inline-item .fa-css3-alt{
+  filter:  invert(35%) sepia(71%) saturate(836%) hue-rotate(173deg) brightness(92%) contrast(103%);
+}
+.list-inline-item .fa-js-square{
+  filter: invert(92%) sepia(37%) saturate(880%) hue-rotate(337deg) brightness(95%) contrast(93%);
+}
+.list-inline-item .fa-node-js{
+  filter: invert(70%) sepia(15%) saturate(4960%) hue-rotate(72deg) brightness(90%) contrast(55%);
+}
+.list-inline-item .fa-npm{
+  filter: invert(39%) sepia(99%) saturate(4874%) hue-rotate(340deg) brightness(87%) contrast(99%);
+}
+.list-inline-item .fa-react{
+  filter: invert(90%) sepia(23%) saturate(4516%) hue-rotate(162deg) brightness(97%) contrast(97%);
+}
+.list-inline-item .fa-github{
+  filter: brightness(0.5);  
 }
 .initialism {
   font-size: 90%;
