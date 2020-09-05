@@ -464,7 +464,7 @@ mark,
   filter:  invert(35%) sepia(71%) saturate(836%) hue-rotate(173deg) brightness(92%) contrast(103%);
 }
 .list-inline-item .fa-js-square{
-  filter: invert(92%) sepia(37%) saturate(880%) hue-rotate(337deg) brightness(95%) contrast(93%);
+  filter:invert(59%) sepia(87%) saturate(378%) hue-rotate(15deg) brightness(115%) contrast(99%);
 }
 .list-inline-item .fa-node-js{
   filter: invert(70%) sepia(15%) saturate(4960%) hue-rotate(72deg) brightness(90%) contrast(55%);
@@ -473,7 +473,7 @@ mark,
   filter: invert(39%) sepia(99%) saturate(4874%) hue-rotate(340deg) brightness(87%) contrast(99%);
 }
 .list-inline-item .fa-react{
-  filter: invert(90%) sepia(23%) saturate(4516%) hue-rotate(162deg) brightness(97%) contrast(97%);
+  filter: invert(74%) sepia(54%) saturate(2229%) hue-rotate(164deg) brightness(104%) contrast(94%);
 }
 .list-inline-item .fa-github{
   filter: brightness(0.5);  
@@ -10088,6 +10088,7 @@ p.lead {
     width: 10rem;
     height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    object-fit: cover;
   }
   #sideNav .navbar-collapse {
     display: flex;
