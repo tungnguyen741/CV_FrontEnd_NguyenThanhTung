@@ -10157,3 +10157,77 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.project {
+  flex-basis: 300px;
+  margin: 20px;
+  border: 1px solid #efefef;
+  box-shadow: 0 0px 8px 0px #efefef;
+}
+.project-demo {
+  display: flex;
+  flex-flow: wrap;
+}
+.project a img {
+  width: 100%;
+  transition: 3s all;
+  transform: translateY(0);
+}
+.header_project {
+  height: 200px;
+  overflow: hidden;
+  border-bottom: 3px solid #efefef;
+}
+.project h4 {
+  padding: 10px 20px;
+  margin: 0;
+}
+.project .content {
+  padding: 0 20px 20px 20px;
+}
+
+.project.project-4 .header_project {
+  position: relative;
+}
+.project.project-4 img {
+  width: 100%;
+  height: 160%;
+  object-fit: cover;
+  position: absolute;
+}
+.show{
+   animation: xuathien 3s forwards;
+   opacity:1
+  }
+  
+
+  .hidden{
+    animation: bienmat 3s forwards;
+    opacity:0
+ }
+
+ @-webkit-keyframes bienmat{
+  0% {
+    transform: translateX(0%);
+ 
+  }
+  100%{
+    transform: translateX(100%);
+ 
+  }
+}
+@-webkit-keyframes xuathien{
+  0% {
+    transform: translateX(-100%);
+ 
+  }
+  100%{
+    transform: translateX(0%);
+ 
+  }
+}
+.summary {
+  text-transform: initial;
+  width: 59%;
+  text-align: justify;
+}
