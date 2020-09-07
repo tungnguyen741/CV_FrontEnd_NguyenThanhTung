@@ -56,8 +56,8 @@ function sideWay (item, value1, value2){
     item.style.transform = `translateX(${value1})`;
     item.style.opacity = value2
 }
-img_project[0].addEventListener('mouseover',() => slipDown(img_project[0],'-83%') )
-img_project[0].addEventListener('touchstart',() => slipDown(img_project[0],'-83%') )
+img_project[0].addEventListener('mouseover',() => slipDown(img_project[0],'-76%') )
+img_project[0].addEventListener('touchstart',() => slipDown(img_project[0],'-76%') )
 
 img_project[2].addEventListener('mouseover', () => slipDown(img_project[2], '-72.5%') ) ;
 img_project[2].addEventListener('touchstart', () => slipDown(img_project[2], '-72.5%') ) ;

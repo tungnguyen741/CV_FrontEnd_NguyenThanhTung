@@ -10163,6 +10163,7 @@ section.resume-section .resume-section-content {
   margin: 20px;
   border: 1px solid #efefef;
   box-shadow: 0 0px 8px 0px #efefef;
+  position: relative;
 }
 .project-demo {
   display: flex;
@@ -10184,7 +10185,8 @@ section.resume-section .resume-section-content {
   margin: 0;
 }
 .project .content {
-  padding: 0 20px 20px 20px;
+  padding:0 20px 50px 20px
+  
 }
 
 .project.project-4 .header_project {
@@ -10230,4 +10232,9 @@ section.resume-section .resume-section-content {
 .summary {
   text-transform: initial;
   text-align: justify;
+}
+
+.link_project_gh{
+  position: absolute;
+  bottom: 15px
 }
