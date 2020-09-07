@@ -10166,6 +10166,7 @@ section.resume-section .resume-section-content {
 }
 .project-demo {
   display: flex;
+  justify-content: center;
   flex-flow: wrap;
 }
 .project a img {
@@ -10195,13 +10196,13 @@ section.resume-section .resume-section-content {
   object-fit: cover;
   position: absolute;
 }
-.show{
+.show_img{
    animation: xuathien 3s forwards;
    opacity:1
   }
   
 
-  .hidden{
+.hidden_img{
     animation: bienmat 3s forwards;
     opacity:0
  }

@@ -74,34 +74,34 @@ img_project[8].addEventListener('touchstart', () => slipDown(img_project[8], '-8
  
 
 setInterval(() => {
-    if(img_project[6].getAttribute('class') == 'show'){
+    if(img_project[6].getAttribute('class') == 'show_img'){
         setTimeout(() => {
-            img_project[6].classList.add('hidden');
-            img_project[6].classList.remove('show');
+            img_project[6].classList.add('hidden_img');
+            img_project[6].classList.remove('show_img');
         }, 0);
         setTimeout(() => {
-            img_project[5].classList.add('show');
-            img_project[5].classList.remove('hidden');
-        }, 0);
-    }
-    if(img_project[5].getAttribute('class') == 'show' ){
-        setTimeout(() => {
-            img_project[5].classList.add('hidden');
-            img_project[5].classList.remove('show');
-        }, 0);
-        setTimeout(() => {
-            img_project[7].classList.add('show');
-            img_project[7].classList.remove('hidden');
+            img_project[5].classList.add('show_img');
+            img_project[5].classList.remove('hidden_img');
         }, 0);
     }
-    if(img_project[7].getAttribute('class') == 'show' ){
+    if(img_project[5].getAttribute('class') == 'show_img' ){
         setTimeout(() => {
-            img_project[7].classList.remove('show');
-            img_project[7].classList.add('hidden');
+            img_project[5].classList.add('hidden_img');
+            img_project[5].classList.remove('show_img');
         }, 0);
         setTimeout(() => {
-            img_project[6].classList.add('show');
-            img_project[6].classList.remove('hidden');
+            img_project[7].classList.add('show_img');
+            img_project[7].classList.remove('hidden_img');
+        }, 0);
+    }
+    if(img_project[7].getAttribute('class') == 'show_img' ){
+        setTimeout(() => {
+            img_project[7].classList.remove('show_img');
+            img_project[7].classList.add('hidden_img');
+        }, 0);
+        setTimeout(() => {
+            img_project[6].classList.add('show_img');
+            img_project[6].classList.remove('hidden_img');
         }, 0);
     }
 }, 3000);
